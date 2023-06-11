@@ -1,6 +1,11 @@
 .App {
   text-align: center;
 }
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +40,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+@keyframes inputPlaceholderAnimation {
+  0% {
+    transform: translate(0, 0) scale(100%);
+  }
+  100% {
+    transform: translate(-2px, -1.5rem) scale(75%);
+  }
+}
+
+
+input:focus::placeholder,
+input:not(:placeholder-shown)::placeholder {
+  transform: translate(-2px, -1.5rem) scale(0.75);
 }

@@ -1,9 +1,11 @@
 import './App.css';
+import CompanyResgistraion from './company/CompanyResgistraion';
+
 
 function App() {
   return (
     <div className="App">
-      <h1 className='text-xl font-bold'>hello tailwkvvvvvvvvvvvvvvvkbvvvindcss</h1>
+      <CompanyResgistraion/>
     </div>
   );
 }

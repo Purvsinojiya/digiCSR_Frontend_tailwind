@@ -15,3 +15,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@keyframes inputPlaceholderAnimation {
+  0% {
+    transform: translate(0, 0) scale(100%);
+  }
+  100% {
+    transform: translate(-2px, -1.5rem) scale(75%);
+  }
+}
+
+input:focus + label,
+input:not(:placeholder-shown) + label {
+  animation: inputPlaceholderAnimation 0.3s forwards;
+}
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+/* Customize the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 8px;
+}
+
+/* Change scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
