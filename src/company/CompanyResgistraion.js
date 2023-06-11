@@ -152,42 +152,23 @@ const CompanyRegistration = () => {
               <label className="flex justify-start space-y-2.5">
                 Contact Details
               </label>
-              <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-4">
-                <div className="relative">
-                  <div className="grid grid-cols-1">
-                    <input
-                      id="phoneNumberInput"
-                      className="border border-gray-300 rounded p-2 w-full focus:outline-none focus:border-blue-500 transition-all duration-300"
-                      type="number"
-                      placeholder=" "
-                      required
-                    />
-                    <label
-                      htmlFor="phoneNumberInput"
-                      className="absolute left-2 top-2 text-gray-400 text-sm transition-all duration-300 origin-left transform scale-100 pointer-events-none"
-                    >
-                      Phone number
-                    </label>
-                  </div>
-                </div>
+            </div>
 
-                <div className="relative">
-                  <div className="grid grid-cols-1">
-                    <input
-                      id="emailInput"
-                      className="border border-gray-300 rounded p-2 w-full focus:outline-none focus:border-blue-500 transition-all duration-300"
-                      type="text"
-                      placeholder=" "
-                      required
-                    />
-                    <label
-                      htmlFor="emailInput"
-                      className="absolute left-2 top-2 text-gray-400 text-sm transition-all duration-300 origin-left transform scale-100 pointer-events-none"
-                    >
-                      Email
-                    </label>
-                  </div>
-                </div>
+            <div className="relative">
+              <div className="grid grid-cols-1">
+                <input
+                  id="emailInput"
+                  className="border border-gray-300 rounded p-2 w-full focus:outline-none focus:border-blue-500 transition-all duration-300"
+                  type="text"
+                  placeholder=" "
+                  required
+                />
+                <label
+                  htmlFor="emailInput"
+                  className="absolute left-2 top-2 text-gray-400 text-sm transition-all duration-300 origin-left transform scale-100 pointer-events-none"
+                >
+                  Email
+                </label>
               </div>
             </div>
 
@@ -195,6 +176,7 @@ const CompanyRegistration = () => {
               <label className="flex justify-start">
                 Communication Person details
               </label>
+              <div className="grid md:grid-cols-2 gap-4">
               <div className="relative">
                 <input
                   id="rfpTitleInput"
@@ -209,42 +191,58 @@ const CompanyRegistration = () => {
                 >
                   Designation of Communication Person
                 </label>
-                
               </div>
+              <div className="relative">
+                <div className="grid grid-cols-1">
+                  <input
+                    id="emailInput"
+                    className="border border-gray-300 rounded p-2 w-full focus:outline-none focus:border-blue-500 transition-all duration-300"
+                    type="text"
+                    placeholder=" "
+                    required
+                  />
+                  <label
+                    htmlFor="emailInput"
+                    className="absolute left-2 top-2 text-gray-400 text-sm transition-all duration-300 origin-left transform scale-100 pointer-events-none"
+                  >
+                    Communication Person Name
+                  </label>
+                </div>
+                </div>
+              </div>
+
               <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-4">
-              <div className="relative">
-                <input
-                  id="rfpTitleInput"
-                  className="border border-gray-300 rounded p-2 w-full focus:outline-none focus:border-blue-500 transition-all duration-300"
-                  type="text"
-                  placeholder=" "
-                  required
-                />
-                <label
-                  htmlFor="rfpTitleInput"
-                  className="absolute left-2 top-2 text-gray-400 text-sm transition-all duration-300 origin-left transform scale-100 pointer-events-none"
-                >
-                 Phone Number
-                </label>
-                
+                <div className="relative">
+                  <input
+                    id="rfpTitleInput"
+                    className="border border-gray-300 rounded p-2 w-full focus:outline-none focus:border-blue-500 transition-all duration-300"
+                    type="text"
+                    placeholder=" "
+                    required
+                  />
+                  <label
+                    htmlFor="rfpTitleInput"
+                    className="absolute left-2 top-2 text-gray-400 text-sm transition-all duration-300 origin-left transform scale-100 pointer-events-none"
+                  >
+                    Phone Number
+                  </label>
+                </div>
+                <div className="relative">
+                  <input
+                    id="rfpTitleInput"
+                    className="border border-gray-300 rounded p-2 w-full focus:outline-none focus:border-blue-500 transition-all duration-300"
+                    type="text"
+                    placeholder=" "
+                    required
+                  />
+                  <label
+                    htmlFor="rfpTitleInput"
+                    className="absolute left-2 top-2 text-gray-400 text-sm transition-all duration-300 origin-left transform scale-100 pointer-events-none"
+                  >
+                    Email
+                  </label>
+                </div>
               </div>
-              <div className="relative">
-                <input
-                  id="rfpTitleInput"
-                  className="border border-gray-300 rounded p-2 w-full focus:outline-none focus:border-blue-500 transition-all duration-300"
-                  type="text"
-                  placeholder=" "
-                  required
-                />
-                <label
-                  htmlFor="rfpTitleInput"
-                  className="absolute left-2 top-2 text-gray-400 text-sm transition-all duration-300 origin-left transform scale-100 pointer-events-none"
-                >
-                 Email
-                </label>
-                
-              </div>
-            </div>
             </div>
 
             <div className="grid grid-cols-1 gap-4">
