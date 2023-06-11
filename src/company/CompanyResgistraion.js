@@ -209,7 +209,42 @@ const CompanyRegistration = () => {
                 >
                   Designation of Communication Person
                 </label>
+                
               </div>
+              <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-4">
+              <div className="relative">
+                <input
+                  id="rfpTitleInput"
+                  className="border border-gray-300 rounded p-2 w-full focus:outline-none focus:border-blue-500 transition-all duration-300"
+                  type="text"
+                  placeholder=" "
+                  required
+                />
+                <label
+                  htmlFor="rfpTitleInput"
+                  className="absolute left-2 top-2 text-gray-400 text-sm transition-all duration-300 origin-left transform scale-100 pointer-events-none"
+                >
+                 Phone Number
+                </label>
+                
+              </div>
+              <div className="relative">
+                <input
+                  id="rfpTitleInput"
+                  className="border border-gray-300 rounded p-2 w-full focus:outline-none focus:border-blue-500 transition-all duration-300"
+                  type="text"
+                  placeholder=" "
+                  required
+                />
+                <label
+                  htmlFor="rfpTitleInput"
+                  className="absolute left-2 top-2 text-gray-400 text-sm transition-all duration-300 origin-left transform scale-100 pointer-events-none"
+                >
+                 Email
+                </label>
+                
+              </div>
+            </div>
             </div>
 
             <div className="grid grid-cols-1 gap-4">
