@@ -37,7 +37,7 @@ const CompanyRegistration = () => {
         <div className="h-28 w-full  flex justify-center items-center bg-[#7ED1FF] lg:text-4xl md:text-4xl text-2xl font-[Poppins] not-italic font-normal drop-shadow-[0px 4px 10px rgba(0, 0, 0, 0.25)] ">
           Company Registration Form
         </div>
-        <div className="p-3 h-fit min-h-0 w-full  bg-white text-sm overflow-y-scroll scrollbar-thin scrollbar-thumb-gray-200 backdrop-blur-40  scrollbar-track-gray-100 ">
+        <div className="p-3 h-fit min-h-0 w-full  bg-white  overflow-y-scroll scrollbar-thin scrollbar-thumb-gray-200 backdrop-blur-40  scrollbar-track-gray-100 ld:text-base">
           <form className="space-y-3">
             <div className="grid grid-cols-1 gap-4">
               <label className="flex justify-start space-y-2.5">
