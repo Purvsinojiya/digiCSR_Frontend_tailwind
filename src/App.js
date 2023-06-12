@@ -1,12 +1,13 @@
 import './App.css';
-import CompanyResgistraion from './company/CompanyResgistraion';
-import Ngo_Registration from './company/Ngo_Registration';
+import Login from './company/Login';
+import Navbar from './company/Navbar';
+import Singup from './company/Singup';
 
 
 function App() {
   return (
     <div className="App">
-       <Ngo_Registration/>
+    <Login/>
     </div>
   );
 }
